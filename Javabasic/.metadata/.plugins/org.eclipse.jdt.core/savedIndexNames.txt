@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\Users\user\Documents\ERP_acs\Javabasic\.metadata\.plugins\org.eclipse.jdt.core
+3119868818.index
+1865797976.index
+509127310.index
+3695463370.index
