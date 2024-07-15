@@ -52,7 +52,7 @@ class Human1 {
 		this.address = "부산";
 	}
 	
-	// 생성자를 이용한 인스턴스 복사
+	// 생성자를 이용한 인스턴스 복사 
 	Human1(Human1 human1) {
 		name = human1.name;
 		age = human1.age;
