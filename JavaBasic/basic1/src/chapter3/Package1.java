@@ -20,7 +20,7 @@ public class Package1 {
 		stringNumber = wrapperInt.toString();
 		
 		// Math 클래스 : 수학 연산과 관련된 다양한 메서드를 제공해주는 클래스
-		// 모든 메서드가 static인 정적 메서드
+		//             모든 메서드가 static 인 정적 메서드
 		
 		// 올림 메서드 : ceil()
 		System.out.println(Math.ceil(3.14)); // 4.0
@@ -39,7 +39,7 @@ public class Package1 {
 		// 정수 자리
 		// 98765 / 100.0 => 987.65
 		// Math.round(98765 / 100.0) => 988.0
-		// Math.round(98765 / 100.0) * 100 => 98800.0
+		// Math.round(98765 / 100.0) * 100 => 98800
 		System.out.println(Math.round(98765 / 100.0) * 100); // 98800
 		
 		// 거듭제곱 : pow()

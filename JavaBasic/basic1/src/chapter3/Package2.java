@@ -86,7 +86,7 @@ public class Package2 {
 		set.remove("apple");
 		System.out.println(set);
 		
-		// Map : 키와 값 한 쌍으로 이루어진 요소들의 집합
+		// Map : 키와 값 한 쌍으로 이루어진 요소들의 집합 (순서 없음)
 		// 키는 중복이 불가능, 값은 중복이 가능
 		Map<String, String> map;
 		
@@ -129,11 +129,12 @@ public class Package2 {
 		human1.age = 20;
 		
 		Map<String, Object> human2 = new HashMap<>();
-		human2.put("name", "홍길동");
+		human2.put("naem", "홍길동");
 		human2.put("address", "부산광역시");
 		human2.put("age", 20);
 		
 		// 1. 문제점 : 사용 혹은 추가 작업에 실수 가능성 <ex) 오타>
+		human2.get("name");
 		// 2. 문제점 : 타입의 안정성의 문제
 		int age = (int) human2.get("age");
 		// 3. 문제점 : 데이터 무결성의 문제

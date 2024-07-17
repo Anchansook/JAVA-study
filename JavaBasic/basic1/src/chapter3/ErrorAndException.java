@@ -57,6 +57,7 @@ public class ErrorAndException {
 			
 			System.out.println("0으로 나눌 수 없습니다.");
 			
+			// 예외를 특정하지 못할 때 예외를 전체적으로 받음
 		} catch(Exception exception) {
 			
 			System.out.println("예외가 빌생했습니다.");
@@ -79,6 +80,7 @@ public class ErrorAndException {
 		//   예외 발생을 분석하기 위한 용도로 사용 (개발자에게 디버깅할 수 있는 힌트를 제공)
 		
 		System.out.println("프로그램이 정상적으로 종료되었습니다.");
+		
 
 	}
 

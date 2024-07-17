@@ -1,7 +1,5 @@
 package chapter2;
 
-// 정리 후 좀 더 찾아보기!!!
-
 // 다형성 : 하나의 표현으로 여러가지 형태를 나타낼 수 있는 것
 
 // 오버로딩 : 같은 클래스 내부에서 동일한 이름의 메서드를 여러개 정의할 수 있도록 하는 것
@@ -93,7 +91,7 @@ public class Polymorphism {
 		// footballPlayer4.foul();
 		// 업캐스팅이 되지 않은 변수를 넣어서 error
 		
-		// 최상위 클래스 Object 다 받을 수 있음.
+		// 최상위 클래스 Object 는 어떠한 형태든 받을 수 있음.
 		Object object1 = human;
 		Object object2 = footballPlayer;
 		Object object3 = 3;
@@ -111,6 +109,8 @@ public class Polymorphism {
 	}
 
 }
+
+// 좀 더 찾아보기!!!
 
 
 
